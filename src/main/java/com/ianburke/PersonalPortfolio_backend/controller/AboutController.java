@@ -14,8 +14,9 @@ public class AboutController {
 	   @GetMapping
 	    public About getAbout() {
 	        About about = new About();
-	        about.setName("Your Name");
-	        about.setBio("A short bio about yourself.");
+	        about.setName("Ian Burke");
+	        about.setBio("Testing 1 2 3"
+	        		+ ".");
 	        about.setSkills(Arrays.asList("Java", "Spring Boot", "React", "HTML", "CSS", "JavaScript"));
 	        return about;
 	    }
