@@ -8,6 +8,7 @@ public class PersonalPortfolioBackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PersonalPortfolioBackendApplication.class, args);
+	
 	}
 
 }
